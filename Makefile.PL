@@ -1,5 +1,8 @@
 
-# $Id: Makefile.PL,v 1.2 2010-09-12 14:11:41 Martin Exp $
+use warnings;
+use strict;
+
+use lib '.';
 
 use inc::Module::Install;
 

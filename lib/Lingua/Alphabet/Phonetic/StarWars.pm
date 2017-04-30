@@ -1,5 +1,8 @@
 
-# $Id: StarWars.pm,v 1.2 2010-09-12 14:11:40 Martin Exp $
+package Lingua::Alphabet::Phonetic::StarWars;
+
+use strict;
+use warnings;
 
 =head1 NAME
 
@@ -35,14 +38,9 @@ This software is released under the same license as Perl itself.
 
 #####################################################################
 
-package Lingua::Alphabet::Phonetic::StarWars;
-
-use strict;
-use warnings;
-
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.2 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = 1.201;
 
 my @as = qw(
            Ackbar
